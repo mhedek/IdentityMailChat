@@ -56,6 +56,10 @@ Microsoft.EntityFrameworkCore
 
 Microsoft.EntityFrameworkCore.Design
 
+---
+
+🔍 Sayfa Yönlendirmeleri
+
 | Sayfa            | Yol                      |
 | ---------------- | ------------------------ |
 | 📝 Kayıt Sayfası | `/Register/CreateUser`   |
@@ -65,7 +69,9 @@ Microsoft.EntityFrameworkCore.Design
 | 📤 Giden Kutusu  | `/Message/Sendbox`       |
 | 🙍 Profil        | `/Message/Profile`       |
 
+
 ---
+
 🔐 Şifre Kuralları
 🔡 En az bir küçük harf içermeli
 
@@ -76,7 +82,10 @@ Microsoft.EntityFrameworkCore.Design
 🔣 En az bir özel karakter içermeli
 
 📏 En az 6 karakter uzunluğunda olmalı
+
+
 ---
+
 
 💡 Geliştirici Notları
 
@@ -87,6 +96,8 @@ ViewModel yapıları ile yalnızca gerekli alanlar işlenir.
 Şifreler sistem tarafından otomatik olarak hashlenir, ekstra işlem gerekmez.
 
 TempData kullanılarak mesaj gönderimi sonrası kullanıcı bilgilendirilir.
+
+
 ---
 
 ## 📸 Uygulama Ekran Görüntüleri
