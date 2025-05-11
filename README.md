@@ -39,7 +39,9 @@
 - **Özelleştirme**
   - `CustomIdentityValidator`: Şifre politikaları için özel hata mesajları tanımlar.
 
+---
 📂 NuGet Bağımlılıkları
+
 Projenin çalışabilmesi için aşağıdaki NuGet paketlerinin yüklü olması gerekir:
 
 Microsoft.AspNetCore.Identity.EntityFrameworkCore
@@ -54,15 +56,16 @@ Microsoft.EntityFrameworkCore
 
 Microsoft.EntityFrameworkCore.Design
 
-🔍 Sayfa Yönlendirmeleri
-Sayfa	Yol
-📝 Kayıt Sayfası	/Register/CreateUser
-🔑 Giriş Sayfası	/Login/UserLogin
-💌 Mesaj Gönder	/Message/CreateMessage
-📥 Gelen Kutusu	/Message/Inbox
-📤 Giden Kutusu	/Message/Sendbox
-🙍 Profil	/Message/Profile
+| Sayfa            | Yol                      |
+| ---------------- | ------------------------ |
+| 📝 Kayıt Sayfası | `/Register/CreateUser`   |
+| 🔑 Giriş Sayfası | `/Login/UserLogin`       |
+| 💌 Mesaj Gönder  | `/Message/CreateMessage` |
+| 📥 Gelen Kutusu  | `/Message/Inbox`         |
+| 📤 Giden Kutusu  | `/Message/Sendbox`       |
+| 🙍 Profil        | `/Message/Profile`       |
 
+---
 🔐 Şifre Kuralları
 🔡 En az bir küçük harf içermeli
 
@@ -73,8 +76,10 @@ Sayfa	Yol
 🔣 En az bir özel karakter içermeli
 
 📏 En az 6 karakter uzunluğunda olmalı
+---
 
 💡 Geliştirici Notları
+
 Tüm kullanıcı işlemleri ASP.NET Identity tarafından yönetilir.
 
 ViewModel yapıları ile yalnızca gerekli alanlar işlenir.
@@ -82,6 +87,7 @@ ViewModel yapıları ile yalnızca gerekli alanlar işlenir.
 Şifreler sistem tarafından otomatik olarak hashlenir, ekstra işlem gerekmez.
 
 TempData kullanılarak mesaj gönderimi sonrası kullanıcı bilgilendirilir.
+---
 
 ## 📸 Uygulama Ekran Görüntüleri
 Aşağıda uygulamanın temel sayfalarına ait ekran görüntüleri yer almaktadır:
