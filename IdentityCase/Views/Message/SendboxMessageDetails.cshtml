@@ -1,0 +1,40 @@
+﻿@model IdentityCase.Entities.Message
+
+@{
+    ViewData["Title"] = "SendboxMessageDetails";
+    Layout = "~/Views/Default/Index.cshtml";
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="read-content">
+
+                        <div class="media pt-5">
+                            <div class="media-body">
+                                <h5 class="m-b-3">Alıcı:@Model.ReceiverEmail</h5>
+                                <p class="m-b-2">@Model.SendDate.ToString("dd.MM.yyyy")</p>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="media mb-4 mt-1">
+                            <div class="media-body">
+                                <h4 class="m-0 text-primary">@Model.Subject</h4><small class="text-muted"> Gönderen: Me, @Model.SenderEmail</small>
+                            </div>
+                        </div>
+                        <p>
+                            @Model.MessageDetail
+                        </p>
+                        <hr>
+                        <hr>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

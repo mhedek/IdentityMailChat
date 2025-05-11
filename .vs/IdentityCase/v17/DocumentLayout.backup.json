@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\E\u011Fitim\\IdentityCase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00AF9AB9-4F4D-46EE-AA07-AE63DC460D10}|IdentityCase\\IdentityCase.csproj|d:\\e\u011Fitim\\identitycase\\identitycase\\views\\message\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00AF9AB9-4F4D-46EE-AA07-AE63DC460D10}|IdentityCase\\IdentityCase.csproj|solutionrelative:identitycase\\views\\message\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00AF9AB9-4F4D-46EE-AA07-AE63DC460D10}|IdentityCase\\IdentityCase.csproj|d:\\e\u011Fitim\\identitycase\\identitycase\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00AF9AB9-4F4D-46EE-AA07-AE63DC460D10}|IdentityCase\\IdentityCase.csproj|solutionrelative:identitycase\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00AF9AB9-4F4D-46EE-AA07-AE63DC460D10}|IdentityCase\\IdentityCase.csproj|d:\\e\u011Fitim\\identitycase\\identitycase\\views\\message\\sendbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00AF9AB9-4F4D-46EE-AA07-AE63DC460D10}|IdentityCase\\IdentityCase.csproj|solutionrelative:identitycase\\views\\message\\sendbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00AF9AB9-4F4D-46EE-AA07-AE63DC460D10}|IdentityCase\\IdentityCase.csproj|d:\\e\u011Fitim\\identitycase\\identitycase\\views\\message\\createmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00AF9AB9-4F4D-46EE-AA07-AE63DC460D10}|IdentityCase\\IdentityCase.csproj|solutionrelative:identitycase\\views\\message\\createmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sendbox.cshtml",
+              "DocumentMoniker": "D:\\E\u011Fitim\\IdentityCase\\IdentityCase\\Views\\Message\\Sendbox.cshtml",
+              "RelativeDocumentMoniker": "IdentityCase\\Views\\Message\\Sendbox.cshtml",
+              "ToolTip": "D:\\E\u011Fitim\\IdentityCase\\IdentityCase\\Views\\Message\\Sendbox.cshtml",
+              "RelativeToolTip": "IdentityCase\\Views\\Message\\Sendbox.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T14:26:23.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inbox.cshtml",
+              "DocumentMoniker": "D:\\E\u011Fitim\\IdentityCase\\IdentityCase\\Views\\Message\\Inbox.cshtml",
+              "RelativeDocumentMoniker": "IdentityCase\\Views\\Message\\Inbox.cshtml",
+              "ToolTip": "D:\\E\u011Fitim\\IdentityCase\\IdentityCase\\Views\\Message\\Inbox.cshtml",
+              "RelativeToolTip": "IdentityCase\\Views\\Message\\Inbox.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T14:22:06.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateMessage.cshtml",
+              "DocumentMoniker": "D:\\E\u011Fitim\\IdentityCase\\IdentityCase\\Views\\Message\\CreateMessage.cshtml",
+              "RelativeDocumentMoniker": "IdentityCase\\Views\\Message\\CreateMessage.cshtml",
+              "ToolTip": "D:\\E\u011Fitim\\IdentityCase\\IdentityCase\\Views\\Message\\CreateMessage.cshtml",
+              "RelativeToolTip": "IdentityCase\\Views\\Message\\CreateMessage.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:47:31.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "D:\\E\u011Fitim\\IdentityCase\\IdentityCase\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "IdentityCase\\Controllers\\MessageController.cs",
+              "ToolTip": "D:\\E\u011Fitim\\IdentityCase\\IdentityCase\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "IdentityCase\\Controllers\\MessageController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv0UAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:08:34.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

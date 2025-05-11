@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+    Layout = "~/Views/Default/Index.cshtml";
+}
+@* 
+<h2>Profile</h2>
+
+Ad Soyad: @ViewBag.v1
+Email Adresi: @ViewBag.v2 *@
+<div class="container">
+
+    <div class="card">
+        <div class="card-body">
+            <div class="media align-items-center mb-4">
+                <img class="mr-3" src="/quixlab-master/images/avatar/11.png" width="80" height="80" alt="">
+                <div class="media-body">
+                    <h3 class="mb-0">@ViewBag.v1</h3>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col">
+                    <div class="card card-profile text-center">
+                        <span class="mb-1 text-primary"><i class="icon-people"></i></span>
+                        <h3 class="mb-0">@ViewBag.ReceivedMessages</h3>
+                        <p class="text-muted px-4">Alınan Mesaj Sayısı</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-profile text-center">
+                        <span class="mb-1 text-warning"><i class="icon-user-follow"></i></span>
+                        <h3 class="mb-0">@ViewBag.SentMessages</h3>
+                        <p class="text-muted">Gönderilen Mesaj Sayısı</p>
+                    </div>
+                </div>
+            </div>
+            <ul class="card-profile__info">
+                <li><strong class="text-dark mr-4">Email</strong> <span> @ViewBag.v2</span></li>
+            </ul>
+        </div>
+    </div>
+</div>

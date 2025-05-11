@@ -1,0 +1,57 @@
+﻿@model List<IdentityCase.Entities.Message>
+
+@{
+    ViewData["Title"] = "Inbox";
+    Layout = "~/Views/Default/Index.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="email-list m-t-6">
+                        @foreach (var item in Model)
+                        {
+                            <div class="message">
+                                <a href="/Message/InboxMessageDetails/@item.MessageId">
+                                    <div class="col-mail col-mail-1">
+                                        <div class="email-checkbox">
+                                            <input type="checkbox" id="chk2">
+                                            <label class="toggle" for="chk2"></label>
+                                        </div><span class="star-toggle ti-star"></span>
+                                    </div>
+                                    <div class="col-mail col-mail-2">
+                                        <div class="subject">@item.MessageDetail</div>
+                                        <div class="date">@item.SendDate.ToString("dd.MM.yyyy")</div>
+                                    </div>
+                                </a>
+                            </div>
+                        }
+
+                    </div>
+                    <!-- panel -->
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="text-left">1 - 20</div>
+                        </div>
+                        <div class="col-5">
+                            <div class="btn-group float-right">
+                                <button class="btn btn-gradient" type="button">
+                                    <i class="fa fa-angle-left"></i>
+                                </button>
+                                <button class="btn btn-dark" type="button">
+                                    <i class="fa fa-angle-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
