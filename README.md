@@ -39,16 +39,23 @@
 - **Özelleştirme**
   - `CustomIdentityValidator`: Şifre politikaları için özel hata mesajları tanımlar.
 
-📂 NuGet bağımlılıklarını yükleyin:
-  -Microsoft.AspNetCore.Identity.EntityFrameworkCore
-  -Microsoft.EntityFrameworkCore.SqlServer
-  -Microsoft.EntityFrameworkCore.Tools
-  -Microsoft.AspNetCore.Identity
-  -Microsoft.EntityFrameworkCore
-  -Microsoft.EntityFrameworkCore.Desing
+📂 NuGet Bağımlılıkları
+Projenin çalışabilmesi için aşağıdaki NuGet paketlerinin yüklü olması gerekir:
+
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
+
+Microsoft.EntityFrameworkCore.SqlServer
+
+Microsoft.EntityFrameworkCore.Tools
+
+Microsoft.AspNetCore.Identity
+
+Microsoft.EntityFrameworkCore
+
+Microsoft.EntityFrameworkCore.Design
 
 🔍 Sayfa Yönlendirmeleri
-      Sayfa              	Yol
+Sayfa	Yol
 📝 Kayıt Sayfası	/Register/CreateUser
 🔑 Giriş Sayfası	/Login/UserLogin
 💌 Mesaj Gönder	/Message/CreateMessage
@@ -58,16 +65,23 @@
 
 🔐 Şifre Kuralları
 🔡 En az bir küçük harf içermeli
+
 🔠 En az bir büyük harf içermeli
+
 🔢 En az bir rakam içermeli
+
 🔣 En az bir özel karakter içermeli
-📏 En az 6 karakter uzunluğunda olma
+
+📏 En az 6 karakter uzunluğunda olmalı
 
 💡 Geliştirici Notları
--Tüm kullanıcı işlemleri ASP.NET Identity tarafından yönetilir.
--ViewModel'ler sayesinde sadece gerekli alanlar işlenir.
--Şifreler otomatik olarak hashlenir; manuel bir işlem gerektirmez.
--TempData ile mesaj gönderimi sonrası kullanıcıya bilgi verilir.
+Tüm kullanıcı işlemleri ASP.NET Identity tarafından yönetilir.
+
+ViewModel yapıları ile yalnızca gerekli alanlar işlenir.
+
+Şifreler sistem tarafından otomatik olarak hashlenir, ekstra işlem gerekmez.
+
+TempData kullanılarak mesaj gönderimi sonrası kullanıcı bilgilendirilir.
 
 ## 📸 Uygulama Ekran Görüntüleri
 Aşağıda uygulamanın temel sayfalarına ait ekran görüntüleri yer almaktadır:
